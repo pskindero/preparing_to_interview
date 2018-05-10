@@ -34,6 +34,8 @@ class AA implements II {
 	}
 	
 	public int getN() {return n;}
+	
+	public synchronized void sync() {}
 }
 
 class BB extends AA {
@@ -47,4 +49,8 @@ class BB extends AA {
 	}
 	
 	public int getN() {return n;}
+
+	//There is a Eclipse checker for the Missing synchronized on inherited method
+	public void sync() {}	//BE CAREFULL
+	
 }
