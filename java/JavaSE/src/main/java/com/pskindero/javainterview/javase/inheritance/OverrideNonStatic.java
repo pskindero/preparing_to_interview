@@ -1,5 +1,8 @@
 package com.pskindero.javainterview.javase.inheritance;
 
+/**
+ * -in class declaration: first must be extending, then implementing
+ */
 public class OverrideNonStatic {
 	public static void main(String[] args) {
 		II ib = new BB(11);

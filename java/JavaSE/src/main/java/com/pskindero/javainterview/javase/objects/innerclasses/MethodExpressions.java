@@ -25,7 +25,7 @@ public class MethodExpressions {
 		Arrays.sort(peopleArray, p::compareByAgeNonStatic);
 		
 		//Using reference by constructor
-		mm(Person::new);
+		mm(Person::new);//must be FunctionalInterface
 		mms(Person::new);
 	}
 	
