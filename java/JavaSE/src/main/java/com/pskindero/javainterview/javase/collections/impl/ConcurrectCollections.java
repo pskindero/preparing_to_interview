@@ -1,5 +1,7 @@
 package com.pskindero.javainterview.javase.collections.impl;
 
+import java.util.concurrent.ConcurrentMap;
+
 /**
  * 
  * For Map:
@@ -8,4 +10,5 @@ package com.pskindero.javainterview.javase.collections.impl;
  */
 public class ConcurrectCollections {
 
+	ConcurrentMap cm;
 }

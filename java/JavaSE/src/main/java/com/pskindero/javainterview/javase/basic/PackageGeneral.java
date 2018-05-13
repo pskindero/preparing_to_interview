@@ -5,7 +5,7 @@
  * - name cannot contain reserved java names
  * - cannot start from digit or some sign
  */
-package com.pskindero.javainterview.javase.basic.common;
+package com.pskindero.javainterview.javase.basic;
 
 
 public class PackageGeneral {

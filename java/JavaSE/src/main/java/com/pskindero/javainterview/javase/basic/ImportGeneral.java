@@ -1,4 +1,4 @@
-package com.pskindero.javainterview.javase.basic.common;
+package com.pskindero.javainterview.javase.basic;
 
 /**
  * Need to be remembered:
