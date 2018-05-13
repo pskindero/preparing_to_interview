@@ -6,22 +6,20 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * - from java 7 use diamond
+ * Need to be remembered:
+ * - from java 7 use diamond: List<Integer> l1 = new ArrayList<>();
  * - < E extends SomeClass&MustBeInterface, the first element may be a class, but next must be interface!
  */
 public class GenericsGeneral {
 
 	public static void main(String[] args) {
 		
-		//Diamond
-		List<Integer> l1 = new ArrayList<>();
-		
 		//Now it is possible!
 		ArrayList l = new ArrayList();
 		l.add("dupa");
 		List<Integer> l2 = l;
 		l2.add(1);
-		System.out.println(l2);
+		System.out.println(l2.get(0));
 		
 		//GenA<String, Number> g = new GenA<String, Integer>(); not compile
 		//GenA<String, Integer> g = new GenA<String, Number>(); not compile
