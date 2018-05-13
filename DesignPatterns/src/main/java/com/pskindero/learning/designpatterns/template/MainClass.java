@@ -1,10 +1,11 @@
-package com.pskindero.learning.design_patterns.template;
+package com.pskindero.learning.designpatterns.template;
 
 import org.apache.logging.log4j.LogManager;
+
 import org.apache.logging.log4j.Logger;
 
-import com.pskindero.learning.design_patterns.template.model.SimpleTestCase;
-import com.pskindero.learning.design_patterns.template.model.TestCaseResult;
+import com.pskindero.learning.designpatterns.template.model.SimpleTestCase;
+import com.pskindero.learning.designpatterns.template.model.TestCaseResult;
 
 /**
  * Simple example of running Test Case.

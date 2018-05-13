@@ -1,4 +1,4 @@
-package com.pskindero.learning.design_patterns.template.model;
+package com.pskindero.learning.designpatterns.template.model;
 
 /**
  * Test Case results.

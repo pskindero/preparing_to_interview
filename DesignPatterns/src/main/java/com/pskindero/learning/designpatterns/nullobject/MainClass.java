@@ -1,5 +1,9 @@
 package com.pskindero.learning.designpatterns.nullobject;
 
+import com.pskindero.learning.designpatterns.nullobject.model.AbstractObject;
+import com.pskindero.learning.designpatterns.nullobject.model.NullObject;
+import com.pskindero.learning.designpatterns.nullobject.model.RealObject;
+
 /**
  * Example of Null Object design pattern usage.
  */

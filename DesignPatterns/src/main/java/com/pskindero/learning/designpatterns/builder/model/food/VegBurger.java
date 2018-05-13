@@ -1,4 +1,4 @@
-package com.pskindero.learning.design_patterns.builder.model.food;
+package com.pskindero.learning.designpatterns.builder.model.food;
 
 public class VegBurger extends Burger {
 

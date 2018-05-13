@@ -1,7 +1,7 @@
-package com.pskindero.learning.design_patterns.builder;
+package com.pskindero.learning.designpatterns.builder;
 
-import com.pskindero.learning.design_patterns.builder.model.Meal;
-import com.pskindero.learning.design_patterns.builder.model.MealBuilder;
+import com.pskindero.learning.designpatterns.builder.model.Meal;
+import com.pskindero.learning.designpatterns.builder.model.MealBuilder;
 
 /**
  * Example of Builder Design Pattern.

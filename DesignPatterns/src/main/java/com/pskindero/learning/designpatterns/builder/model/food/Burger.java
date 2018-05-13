@@ -1,8 +1,8 @@
-package com.pskindero.learning.design_patterns.builder.model.food;
+package com.pskindero.learning.designpatterns.builder.model.food;
 
-import com.pskindero.learning.design_patterns.builder.model.Item;
-import com.pskindero.learning.design_patterns.builder.model.packing.Packing;
-import com.pskindero.learning.design_patterns.builder.model.packing.Wrapper;
+import com.pskindero.learning.designpatterns.builder.model.Item;
+import com.pskindero.learning.designpatterns.builder.model.packing.Packing;
+import com.pskindero.learning.designpatterns.builder.model.packing.Wrapper;
 
 public abstract class Burger implements Item {
 

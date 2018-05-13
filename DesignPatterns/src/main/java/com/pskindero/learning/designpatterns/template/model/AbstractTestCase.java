@@ -1,9 +1,9 @@
-package com.pskindero.learning.design_patterns.template.model;
+package com.pskindero.learning.designpatterns.template.model;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.pskindero.learning.design_patterns.template.exceptions.TestCaseException;
+import com.pskindero.learning.designpatterns.template.exceptions.TestCaseException;
 
 /**
  * Base class for Test Cases. 

@@ -1,4 +1,4 @@
-package com.pskindero.learning.design_patterns.builder.model.packing;
+package com.pskindero.learning.designpatterns.builder.model.packing;
 
 public class Bottle implements Packing{
 

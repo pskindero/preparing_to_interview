@@ -1,4 +1,4 @@
-package com.pskindero.design_patterns.command.model;
+package com.pskindero.learning.designpatterns.command.model;
 
 public class Stock {
 

@@ -1,4 +1,4 @@
-package com.pskindero.learning.design_patterns.builder.model;
+package com.pskindero.learning.designpatterns.builder.model;
 
 import java.util.ArrayList;
 import java.util.List;

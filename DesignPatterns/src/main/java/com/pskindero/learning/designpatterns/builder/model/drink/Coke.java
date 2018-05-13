@@ -1,4 +1,4 @@
-package com.pskindero.learning.design_patterns.builder.model.drink;
+package com.pskindero.learning.designpatterns.builder.model.drink;
 
 public class Coke extends ColdDrink{
 

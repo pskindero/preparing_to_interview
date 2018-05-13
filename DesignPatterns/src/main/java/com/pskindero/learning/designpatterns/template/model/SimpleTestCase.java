@@ -1,6 +1,6 @@
-package com.pskindero.learning.design_patterns.template.model;
+package com.pskindero.learning.designpatterns.template.model;
 
-import com.pskindero.learning.design_patterns.template.exceptions.TestCaseException;
+import com.pskindero.learning.designpatterns.template.exceptions.TestCaseException;
 
 public class SimpleTestCase extends AbstractTestCase {
 

@@ -1,9 +1,9 @@
-package com.pskindero.learning.design_patterns.builder.model;
+package com.pskindero.learning.designpatterns.builder.model;
 
-import com.pskindero.learning.design_patterns.builder.model.drink.Coke;
-import com.pskindero.learning.design_patterns.builder.model.drink.Pepsi;
-import com.pskindero.learning.design_patterns.builder.model.food.ChickenBurger;
-import com.pskindero.learning.design_patterns.builder.model.food.VegBurger;
+import com.pskindero.learning.designpatterns.builder.model.drink.Coke;
+import com.pskindero.learning.designpatterns.builder.model.drink.Pepsi;
+import com.pskindero.learning.designpatterns.builder.model.food.ChickenBurger;
+import com.pskindero.learning.designpatterns.builder.model.food.VegBurger;
 
 public class MealBuilder {
 

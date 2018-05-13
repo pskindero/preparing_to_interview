@@ -1,6 +1,6 @@
-package com.pskindero.learning.design_patterns.builder.model;
+package com.pskindero.learning.designpatterns.builder.model;
 
-import com.pskindero.learning.design_patterns.builder.model.packing.Packing;
+import com.pskindero.learning.designpatterns.builder.model.packing.Packing;
 
 public interface Item {
 

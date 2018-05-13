@@ -1,9 +1,9 @@
-package com.pskindero.design_patterns.command;
+package com.pskindero.learning.designpatterns.command;
 
-import com.pskindero.design_patterns.command.model.Broker;
-import com.pskindero.design_patterns.command.model.BuyStock;
-import com.pskindero.design_patterns.command.model.SellStock;
-import com.pskindero.design_patterns.command.model.Stock;
+import com.pskindero.learning.designpatterns.command.model.Broker;
+import com.pskindero.learning.designpatterns.command.model.BuyStock;
+import com.pskindero.learning.designpatterns.command.model.SellStock;
+import com.pskindero.learning.designpatterns.command.model.Stock;
 
 /**
  * Example of Command Pattern implemenation.
