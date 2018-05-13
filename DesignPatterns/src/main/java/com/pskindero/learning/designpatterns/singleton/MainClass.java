@@ -1,5 +1,7 @@
 package com.pskindero.learning.designpatterns.singleton;
 
+import com.pskindero.learning.designpatterns.singleton.model.IdGeneratorSimpleSingleton;
+
 public class MainClass {
 
 	public static void main(String[] args) {

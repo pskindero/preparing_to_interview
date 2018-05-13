@@ -1,17 +1,11 @@
 package com.pskindero.learning.designpatterns.nullobject;
 
-import com.pskindero.learning.designpatterns.nullobject.model.AbstractObject;
-import com.pskindero.learning.designpatterns.nullobject.model.NullObject;
-import com.pskindero.learning.designpatterns.nullobject.model.RealObject;
-
 /**
  * Example of Null Object design pattern usage.
+ * Consider to Use Optional in Java 8+
  */
 public class MainClass  {
-	private static final int SIZE = 3;
-
 	public static void main( String[] args ) {
-    	
 		AbstractObject[] array = getArray();
     	
     	for (AbstractObject elem : array) {
@@ -28,10 +22,22 @@ public class MainClass  {
     }
 	
 	private static AbstractObject[] getArray() {
-		AbstractObject[] array = new AbstractObject[SIZE];
+		AbstractObject[] array = new AbstractObject[3];
     	array[0] = new RealObject();
     	array[1] = new NullObject();
     	array[2] = new RealObject();
     	return array;
 	}
+}
+
+abstract class AbstractObject {
+	public abstract String getBehaviorDesc();
+}
+
+class NullObject extends AbstractObject{
+	@Override public String getBehaviorDesc() {return "";}
+}
+
+class RealObject extends AbstractObject{
+	@Override public String getBehaviorDesc() {return "Some real behaviour!";}
 }

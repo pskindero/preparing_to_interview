@@ -1,9 +1,12 @@
 package com.pskindero.learning.designpatterns.singleton;
 
+import static org.testng.Assert.assertEquals;
+
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import static org.testng.Assert.assertEquals;
+
+import com.pskindero.learning.designpatterns.singleton.model.IdGeneratorSimpleSingleton;
 
 public class IdGeneratorSimpleSingletonTest {
 
