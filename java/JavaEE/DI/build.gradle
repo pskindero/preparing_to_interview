@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	implementation group: 'com.google.inject', name: 'guice', version: '4.2.0'
+
+    testImplementation 'junit:junit:4.12'
+}
