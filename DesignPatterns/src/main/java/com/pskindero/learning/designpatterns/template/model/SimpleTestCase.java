@@ -1,7 +1,5 @@
 package com.pskindero.learning.designpatterns.template.model;
 
-import com.pskindero.learning.designpatterns.template.exceptions.TestCaseException;
-
 public class SimpleTestCase extends AbstractTestCase {
 
 	private static final int MIN_STRING_LENGTH = 8;

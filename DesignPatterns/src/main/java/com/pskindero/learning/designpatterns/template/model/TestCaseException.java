@@ -1,4 +1,4 @@
-package com.pskindero.learning.designpatterns.template.exceptions;
+package com.pskindero.learning.designpatterns.template.model;
 
 /**
  * Common exception used for failing Test Cases.

@@ -6,6 +6,9 @@ import java.util.Set;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
+/**
+ * Exceptions in streams: https://stackoverflow.com/questions/27644361/how-can-i-throw-checked-exceptions-from-inside-java-8-streams
+ */
 public class StreamsExamples {
 
 	public static void main(String[] args) {
@@ -18,20 +21,12 @@ public class StreamsExamples {
 			.forEach(System.out::println);
 		
 		
-		//Sor and convert to List
+		//Sort and convert to List
 		Set<Integer> s = Set.of(7, 4, 9, 13, 22, 44, 11, 92);
 		List l = s.stream()
 			.sorted((e1, e2) -> e1-e2)
 			.collect(Collectors.toList());
 		System.out.println(l);
-		
-		
-		//Lazy initialization of list elements
-		List<Supplier<Empty>> list = new ArrayList<>();
-		list.add(Empty::new);
-		System.out.println("Object not created");
-		list.get(0).get();
-		System.out.println("Now it is created");
 	}
 
 }

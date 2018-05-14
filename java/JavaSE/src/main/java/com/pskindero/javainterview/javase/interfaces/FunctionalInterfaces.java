@@ -1,5 +1,7 @@
 package com.pskindero.javainterview.javase.interfaces;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -23,5 +25,13 @@ public class FunctionalInterfaces {
 		//Converter
 		Function<Integer, Long> fun = (t) -> (long) t;
 		System.out.println(fun.apply(10) instanceof Long);
+		
+
+		//Lazy initialization of list elements
+		List<Supplier<Empty>> list = new ArrayList<>();
+		list.add(Empty::new);
+		System.out.println("Object not created");
+		list.get(0).get();
+		System.out.println("Now it is created");
 	}
 }
