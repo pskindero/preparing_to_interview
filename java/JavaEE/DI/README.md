@@ -1,13 +1,13 @@
-Guice vs Weld (Java EE) vs Spring CDI
+# Guice vs Weld (Java EE) vs Spring CDI
 
-Guice
+## Guice
 ======
-https://github.com/google/guice/wiki/GettingStarted
+#### https://github.com/google/guice/wiki/GettingStarted
 
 
-Weld 
+## Weld 
 ======================
-http://docs.jboss.org/weld/reference/latest-master/en-US/html_single/#intro)
+#### http://docs.jboss.org/weld/reference/latest-master/en-US/html_single/#intro)
 
 Injecting and wiring:
 @Inject
@@ -20,5 +20,6 @@ Bean types:
 Scopes:
 @SessionScoped
 
-Spring
+## Spring
 ======
+#### https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-spring-beans-and-dependency-injection.html
