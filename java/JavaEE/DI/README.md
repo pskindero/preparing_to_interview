@@ -66,7 +66,11 @@ ServletContext
 ##### Doc: https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-spring-beans-and-dependency-injection.html
 
 ###### Injecting
-@Required
+@Required  
+@Autowired  
+@Bean @Primary - is is similar to @Produces  
+using annotation @Qualifier  
+
 
 ###### Scopes
 singleton - (Default) scopes a single bean definition to a single object instance per Spring IoC container.  
@@ -75,3 +79,8 @@ request - scopes asingle bean definition to the lifecycle of a single HTTP reque
 session - scopes a single bean definition to the lifecycle of an HTTP Session. Only valid in the context of a web-aware Spring ApplicationContext.  
 application - scopes a single bean definition to the lifecycle of a ServletContext. Only valid in the context of a web-aware Spring ApplicationContext.  
 websocket - scopes a single bean definition to the lifecycle of a WebSocket. Only valid in the context of a web-aware Spring ApplicationContext.  
+
+
+###### Constructing and destoying
+@PostConstruct  
+@PreDestroy  

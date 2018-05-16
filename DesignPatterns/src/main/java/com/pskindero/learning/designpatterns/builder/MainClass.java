@@ -1,8 +1,5 @@
 package com.pskindero.learning.designpatterns.builder;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.pskindero.learning.designpatterns.builder.model.Meal;
 import com.pskindero.learning.designpatterns.builder.model.MealBuilder;
 
